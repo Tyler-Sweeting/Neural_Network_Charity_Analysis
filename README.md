@@ -23,7 +23,7 @@ The variables that are neither targets or features are EIN and NAMe, that is why
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-My final model had 3 layers, with 80 neurons in the ifrst, 40 in the next and 10 in the final. This is what I went with because after numerous tests these produced my best results for accuracy and loss.
+My final model had 3 layers, with 80 neurons in the first, 40 in the next and 10 in the final. This is what I went with because after numerous tests these produced my best results for accuracy and loss.
 
 * Were you able to achieve the target model performance?
 
