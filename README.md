@@ -7,24 +7,30 @@ The purpose of this analysis is to utilize machine learning techniques along wit
 #### Data Preprocessing
 
 * What variable(s) are considered the target(s) for your model?
+
 I would consider IS_SUCCESSFUL to be the target variable for our model.
 
 * What variable(s) are considered to be the features for your model?
+
 Variables such as APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, and ASK_AMT are the variables 
 I would consider as features for the model.
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?
+
 The variables that are neither targets or features are EIN and NAMe, that is why we removed them from the dataframe.
 
 #### Compiling, Training, and Evaluating the Model
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
 My final model had 3 layers, with 80 neurons in the ifrst, 40 in the next and 10 in the final. This is what I went with because after numerous tests these produced my best results for accuracy and loss.
 
 * Were you able to achieve the target model performance?
+
 I was not able to achieve the goal of 75%. Possibly with more optimizing it is possible, but I tried for quite some time, and usually the results were getting worse and not better.
 
 * What steps did you take to try and increase model performance?
+
 The first step I tried was to remove more columns from the dataset, this actually caused the accuracy and loss to go in the wrong direction.
 The next step I did was to add more layers. I found this helped some of the time, but also when adding to many layers caused for worse results. I settled on 3 layers. My next effort was adjusting the activation function, I found combinations of Leaky_Relu and Relu were what lead to better numbers. My final optimization was playing around with the numbers of neurons. I found that the higher I went also led to a lower accuracy, but to low was also not good. I found a combination that gave me a higher accuracy than the original test so I took that as a victory.
 
