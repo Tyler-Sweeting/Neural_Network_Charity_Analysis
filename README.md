@@ -33,3 +33,7 @@ The initial model had an loss of 0.5634852051734924, and an Accuracy of 0.728279
 After optimizing the model, we were able to get the results of; Loss: 0.5549336671829224, Accuracy: 0.7294460535049438
 We tried countless efforts to get the accuracy to a more acceptable number but could only increase the efficiency slightly. 
 The goal was 75% accuracy, and we fell short of that. More computations would have to be made to achieve that goal.
+
+Final Model Results are below.
+
+<img width="399" alt="final_model_results" src="https://user-images.githubusercontent.com/118485409/233744875-a3fa1a18-a7d2-4846-8115-359b207d3651.png">
